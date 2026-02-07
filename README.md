@@ -15,9 +15,11 @@ A web-based simulation environment for the [Pulse Physiology Engine](https://pul
 
 ### 1. Pulse Physiology Engine
 
-For now, you must have Pulse built locally on your computer. Please see the ISR [Pulse-SACM](https://github.com/isreppdg/Pulse-SACM/) repo for more information on building Pulse. Once you have finished the Pulse build successfully, you should have a directory inside the build called "install" - copy and paste "install" into the same directory as pulse_server.py, and rename "install" to "pulse_engine".
+If you have built the Pulse physiology engine on your computer, then you should have a folder inside the build called 'install'.
 
-Your final directory should look like this:
+Copy and paste that folder into the same directory as your pulse_server.py and pulse_gui.html files, and rename it 'pulse_engine'.
+
+Your directory should look like this:
 
 ```
 Pulse_Scenario_Builder/
@@ -145,3 +147,4 @@ Pulse_Scenario_Builder/
 ## License
 
 This project interfaces with the Pulse Physiology Engine. See [Pulse License](https://pulse.kitware.com/) for engine licensing terms.
+
