@@ -221,4 +221,9 @@ __marimo__/
 
 #ignore pulse build
 pulse_engine/
+
 results/
+
+#ignore claude-related files
+.claude
+.mcp.json
